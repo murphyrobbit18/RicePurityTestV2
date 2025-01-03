@@ -1,0 +1,91 @@
+.center{ /*style for image*/
+    text-align: center; 
+    }
+
+.title{ /*style for title*/
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+p{
+    text-align: center;
+}
+
+.test{
+    font-size: 36px;
+    text-align: center;
+}
+
+.text{ /*style for text*/
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    }
+
+#result{ /*style for result text*/
+    text-align: center;
+    color: 24px;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#result2{ /*style for result text*/
+    text-align: center;
+    color: red;
+    font-weight: 900;
+    font-size: 45px;
+}
+            
+body{ /*style for background*/
+    background-color: #fdedc9;
+    }
+            
+button{ /*style for buttons*/
+    font-size: 14px;
+    background-color: #d0f3cd;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: #2b382a;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    }
+
+.btn{
+    margin-top: 10px;
+    margin-right: 15px;
+    position:absolute;
+    top:0;
+    right:0;
+    font-size: 20px;
+    background-color: #d3d3d3;
+    border: 3px solid #7c7c7c;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    color: #8e1003;
+    text-decoration: none;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: Verdana, sans-serif;
+
+}
+#popup {
+    position: fixed; 
+    display: none; 
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fdedc9; 
+    z-index: 2; 
+    cursor: pointer; 
+}
